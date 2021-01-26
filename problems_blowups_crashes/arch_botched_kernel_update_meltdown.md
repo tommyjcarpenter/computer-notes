@@ -6,6 +6,7 @@ This got me back:
 2. Mount your root partition: `mount /dev/sda# /mnt`
 3. Change your root directory: `arch-chroot /mnt`
 4. Reinstall the kernel: `pacman -S linux`
+5. MAY have to do mkinitcpio -p linux
 
 This was adapted from the below instructions and link however some of the steps didn’t apply since I don’t have a separate arch boot partition for the imz image (DO NOT CONFUSE THIS WITH BOOT PARTITION FOR THE GRUB!)
 
@@ -16,4 +17,6 @@ This was adapted from the below instructions and link however some of the steps 
 5. Change your root directory: `arch-chroot /mnt`
 6. Reinstall the kernel: `pacman -S linux`
 
-https://joshtronic.com/2017/09/07/fixing-an-arch-linux-system-that-is-booting-into-emergency-mode/
+Links:
+1. https://joshtronic.com/2017/09/07/fixing-an-arch-linux-system-that-is-booting-into-emergency-mode/
+2. https://bbs.archlinux.org/viewtopic.php?id=165021
