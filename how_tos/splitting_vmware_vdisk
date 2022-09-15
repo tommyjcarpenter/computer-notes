@@ -1,0 +1,5 @@
+https://kb.vmware.com/s/article/2006898
+
+basically only two steps..!
+1. sudo vmware-vdiskmanager -r /home/tommy/VM/New/Windows10x64/Windows\ 10\ x64.vmdk -t 3 /home/tommy/VM/New/splitdisk/disk.vdmk 
+2. go into vmware and add this new folder, and remove the old disk. 
