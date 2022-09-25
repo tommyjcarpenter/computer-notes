@@ -2,6 +2,12 @@
 
 Bought a new NVME drive. Wanted to copy the old Drive to it. 
 
+helpful commands:
+1. `blkid`
+1. `lsblk`
+
+Steps:
+
 1. BACKUP EVERYTHING
 1. BACKUP EVERYTHING AGAIN
 1. boot into live USB
