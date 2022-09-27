@@ -7,12 +7,12 @@ make partitions:
 
 encrypting:
 ```
-sudo cryptsetup luksFormat /dev/sdf1
+sudo cryptsetup luksFormat /dev/sdc1
 ```
 
 open it
 ```
-sudo cryptsetup open --type luks /dev/sdf1 archbackup
+sudo cryptsetup open --type luks /dev/sdc1 archbackup
 ```
 
 make the filesystem:
@@ -28,8 +28,8 @@ sudo e2label /dev/mapper/archbackup ARCHBACKUP
 
 mount it 
 ```
-sudo mkdir -p /run/media/tommy/ARCH
-sudo mount -t ext4 /dev/mapper/archbackup /run/media/tommy/ARCH
+sudo mkdir -p /media/ARCHBACKUP
+sudo mount -t ext4 /dev/mapper/archbackup /media/ARCHBACKUP
 ````
 
 unmount/close
